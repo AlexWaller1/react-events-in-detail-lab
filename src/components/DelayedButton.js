@@ -8,6 +8,10 @@ class DelayedButton extends React.Component {
             this.props.onDelayedClick(event);
         }, this.props.delay);
     };
+     // takes in props of function onDelayedClick and delay which is a number.
+     // window.setTimout() sets a timer which executes a function or specified 
+     // piece of code once the timer expires.
+     //
 
     render() {
         return <button onClick={this.handleClick}>Delayed</button>;
