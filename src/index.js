@@ -12,3 +12,4 @@ ReactDOM.render(
   </div>,
   document.getElementById('global')
 );
+// CoordinatesButton and DelayedButtonComponents have received their respective props
